@@ -1,0 +1,317 @@
+{
+    "footer-menu-1": {
+        "en": "MAIN",
+        "ru": "ГЛАВНАЯ",
+        "ua": "ГОЛОВНА"
+    },
+    "footer-menu-2": {
+        "en": "about",
+        "ru": "Про игру",
+        "ua": "Про гру"
+    },
+    "footer-menu-3": {
+        "en": "game features",
+        "ru": "особенности игры",
+        "ua": "особливості гри"
+    },
+    "footer-menu-4": {
+        "en": "System requirements",
+        "ru": "Системные Требования",
+        "ua": "Системні вимоги"
+    },
+    "footer-menu-5": {
+        "en": "quotes",
+        "ru": "отзывы",
+        "ua": "відгуки"
+    },
+    "menu-1": {
+        "en": "MAIN",
+        "ru": "ГЛАВНАЯ",
+        "ua": "ГОЛОВНА"
+    },
+    "menu-2": {
+        "en": "about",
+        "ru": "Про игру",
+        "ua": "Про гру"
+    },
+    "menu-3": {
+        "en": "game features",
+        "ru": "особенности игры",
+        "ua": "особливості гри"
+    },
+    "menu-4": {
+        "en": "System requirements",
+        "ru": "Системные Требования",
+        "ua": "Системні вимоги"
+    },
+    "menu-5": {
+        "en": "quotes",
+        "ru": "отзывы",
+        "ua": "відгуки"
+    },
+    "main-title": {
+        "en": "SURVIVE AT ALL COSTS",
+        "ru": "ВЫЖИТЬ ЛЮБОЙ ЦЕНОЙ",
+        "ua": "ВИЖИТИ БУДЬ-ЯКОЮ ЦІНОЮ"
+    },
+    "main-subtitle": {
+        "en": "Experience new social battle royale game",
+        "ru": "Испытайте новую королевскую битву с социальными элементами",
+        "ua": "Випробуйте нову королівську битву із соціальними елементами"
+    },
+    "main-button": {
+        "en": "Buy Now on Steam<span>$14.99</span>",
+        "ru": "Купить в Steam<span>$14.99</span>",
+        "ua": "Купити у Steam<span>$14.99</span>"
+    },
+    "main-down": {
+        "en": "The story",
+        "ru": "История",
+        "ua": "Історія"
+    },
+    "gallery-subtitle": {
+        "en": "What is SOS?",
+        "ru": "Что такое SOS?",
+        "ua": "Що таке SOS?"
+    },
+    "gallery-title": {
+        "en": "social battle royale game",
+        "ru": "королевская битва с социальными элементами",
+        "ua": "королівська битва із соціальними елементами"
+    },
+    "gallery-desc": {
+        "en": "Each round, <span>you</span> and <span>15</span> other contestants compete to escape a deadly island filled with monsters. The trick is: <span>three</span> people can survive. Will you run solo or form friendships with others to escape?<br><br> Making the right decisions could be the difference between <span>life and death.</span> ",
+        "ru": "В каждом раунде <span>вы</span> и <span>15</span> других участников пытаетесь сбежать со смертельно опасного острова, наполненного монстрами. Хитрость в том, что только <span>трое</span> могут выжить. Будете ли вы бежать в одиночку или попробуете подружиться с другими?<br><br> Принятие правильных решений может решающим между <span>жизнью и смертью.</span>",
+        "ua": "У кожному раунді <span>ви</span> та <span>15</span> інших учасників намагаєтеся втекти зі смертельно небезпечного острова, наповненого монстрами. Хитрість у тому, що лише <span>троє</span> зможуть вижити. Чи будете ви бігти самотужки чи спробуєте потоваришувати з іншими?<br><br> Прийняття правильних рішень може бути вирішальним між <span>життям і смертю.</span>"
+    },
+    "features-subtitle": {
+        "en": "What’s so special?",
+        "ru": "характерные черты?",
+        "ua": "характерні риси?"
+    },
+    "features-title": {
+        "en": "features",
+        "ru": "особенности",
+        "ua": "особливості"
+    },
+    "features-text-title-1": {
+        "en": "SURVIVE AT ALL COSTS",
+        "ru": "ВЫЖИТЬ ЛЮБОЙ ЦЕНОЙ",
+        "ua": "ВИЖИТИ БУДЬ-ЯКОЮ ЦІНОЮ"
+    },
+    "features-text-title-2": {
+        "en": "CREATE ALLIES AND ENEMIES",
+        "ru": "Находите союзников и врагов",
+        "ua": "Знаходьте союзників та ворогів"
+    },
+    "features-text-title-3": {
+        "en": "IMPRESS THE AUDIENCE",
+        "ru": "Впечатляйте аудиторию",
+        "ua": "ВРАЖАЙТЕ АУДИТОРІЮ"
+    },
+    "features-text-desc-1": {
+        "en": "You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.",
+        "ru": "У вас есть 30 минут, чтобы найти реликвию, подать сигнал на эвакуацию и заполучить одно из трех мест на спасательном вертолете",
+        "ua": "У вас є 30 хвилин, щоб знайти реліквію, подати сигнал на евакуацію та отримати одне з трьох місць на рятувальному гелікоптері."
+    },
+    "features-text-desc-2": {
+        "en": "Find allies among other relic hunters and get to the final together, or go through this path alone using your experience and skills.",
+        "ru": "Найдите союзников среди других охотников за реликвией и вместе доберитесь до финала, или пройдите этот путь в одиночестве используя свои опыт и навыки",
+        "ua": "Знайдіть союзників серед інших шукачів реліквій і разом дістаньтеся до фіналу, або пройдіть цей шлях на самотужки використовуючи свої досвід та навички"
+    },
+    "features-text-desc-3": {
+        "en": "Put on a show, show your might, overcome all obstacles and take your prize. Let your defeated opponents watch you play and gain experience to defeat you in the next match.",
+        "ru": "Устройте шоу, покажите свою мощь, преодолейте все препятствия и заберите свой приз. Пусть ваши побежденные противники смотрят, как вы играете, и набираются опыта, чтобы победить вас в следующем матче.",
+        "ua": "Влаштуйте шоу, покажіть свою міць, подолайте всі перешкоди та заберіть свій приз. Нехай ваші переможені противники дивляться, як ви граєте, та набираються досвіду, щоб перемогти вас у наступному матчі."
+    },
+    "req-subtitle": {
+        "en": "Can My Computer Run this game?",
+        "ru": "Сможет ли мой компьютер запустить эту игру?",
+        "ua": "Чи зможе мій комп'ютер запустити цю гру?"
+    },
+    "req-title": {
+        "en": "system requirements",
+        "ru": "Системные Требования",
+        "ua": "Системні вимоги"
+    },
+    "req-table-desc-1": {
+        "en": "Windows 7 64-bit only (No OSX support at this time)",
+        "ru": "Только Windows 7 64-битная (В настоящее время нет поддержки OSX)",
+        "ua": "Лише 64-розрядна версія Windows 7 (Зараз немає підтримки OSX)"
+    },
+    "req-table-desc-2": {
+        "en": "Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ",
+        "ru": "Intel Core 2 Duo @ 2,4 ГГц или AMD Athlon X2 @ 2,8 ГГц",
+        "ua": "Intel Core 2 Duo @ 2,4 ГГц або AMD Athlon X2 @ 2,8 ГГц"
+    },
+    "req-table-desc-3": {
+        "en": "8 GB RAM",
+        "ru": "8 ГБ оперативной памяти",
+        "ua": "8 ГБ оперативної пам'яті"
+    },
+    "req-table-desc-4": {
+        "en": "8 GB available space",
+        "ru": "8 ГБ свободного места",
+        "ua": "8 ГБ доступного місця"
+    },
+    "req-table-desc-5": {
+        "en": "NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)",
+        "ru": "NVIDIA GeForce GTX 660 2ГБ или AMD Radeon HD 7850 2ГБ DirectX11 (Shader Model 5)",
+        "ua": "NVIDIA GeForce GTX 660 2ГБ або AMD Radeon HD 7850 2ГБ DirectX11 (Shader Model 5)"
+    },
+    "req-table-title-1": {
+        "en": "OS:",
+        "ru": "ОС:",
+        "ua": "ОС:"
+    },
+    "req-table-title-2": {
+        "en": "PROCESSOR:",
+        "ru": "ПРОЦЕССОР:",
+        "ua": "ПРОЦЕСОР:"
+    },
+    "req-table-title-3": {
+        "en": "MEMORY:",
+        "ru": "Оперативная память:",
+        "ua": "Оперативна ПАМ'ЯТЬ:"
+    },
+    "req-table-title-4": {
+        "en": "storage:",
+        "ru": "память:",
+        "ua": "ПАМ'ЯТЬ:"
+    },
+    "req-table-title-5": {
+        "en": "GRAPHICS:",
+        "ru": "ГРАФИКА:",
+        "ua": "ГРАФІКА:"
+    },
+    "quotes-title": {
+        "en": "Press quotes",
+        "ru": "Отзывы из прессы",
+        "ua": "Відгуки преси"
+    },
+    "quotes-subtitle": {
+        "en": "What people think?",
+        "ru": "Что думают люди?",
+        "ua": "Що думають люди?"
+    },
+    "quotes-button": {
+        "en": "read more testimonials",
+        "ru": "прочитать больше отзывов",
+        "ua": "читати більше відгуків"
+    },
+    "quotes-desc": {
+        "en": "Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.",
+        "ru": "Наша цель — создать продукт и сервис, которыми вы будете довольны и будете пользоваться ими каждый день. Вот почему мы постоянно работаем над нашими сервисами, чтобы делать лучше каждый день, и действительно прислушиваемся к тому, что говорят наши пользователи.",
+        "ua": "Наша мета — створити продукт та сервіс, якими ви будете задоволені та користуватиметеся ними щодня. Ось чому ми постійно працюємо над нашими сервісами, щоб робити Їх краще щодня, і справді прислухаємось до того, що говорять наші користувачі."
+    },
+    "quotes-comment-1": {
+        "en": "“One of my gaming highlights of the year.”",
+        "ru": "“Для меня одна из лучших игр года”",
+        "ua": "“Для мене одна з найкращих ігор року”"
+    },
+    "quotes-comment-date-1": {
+        "en": "October 18, 2018",
+        "ru": "18 Октября 2018",
+        "ua": "18 Жовтня 2018"
+    },
+    "quotes-comment-2": {
+        "en": "“The next big thing in the world of streaming and survival games.”",
+        "ru": "“Следующий прорыв в мире стриминга и игр на выживание.”",
+        "ua": "“Наступний прорив у світі стримінгу та ігор на виживання.”"
+    },
+    "quotes-comment-date-2": {
+        "en": "December 21, 2018",
+        "ru": "21 Декабря 2018",
+        "ua": "21 Грудня 2018"
+    },
+    "quotes-comment-3": {
+        "en": "“Snoop Dogg Playing The Wildly Entertaining 'SOS' Is Ridiculous.”",
+        "ru": "“Снуп Дог играет в чрезвычайно развлекательный 'SOS' - это смешно.”",
+        "ua": "“Снуп Дог грає в надзвичайно розважальний 'SOS' — це смішно.”"
+    },
+    "quotes-comment-date-3": {
+        "en": "December 24, 2018",
+        "ru": "24 Декабря 2018",
+        "ua": "24 Грудня 2018"
+    },
+    "news-title": {
+        "en": "newsletter SUBSCRIBE",
+        "ru": "ПОДПИСАТЬСЯ НА рассылку",
+        "ua": "Підписатися на розсилку"
+    },
+    "news-subtitle": {
+        "en": "Want to stay in touch?",
+        "ru": "Хотите оставаться на связи?",
+        "ua": "Хочете залишатися на зв'язку?"
+    },
+    "news-desc": {
+        "en": "In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.",
+        "ru": "Для того, чтобы получать наши новости, всё, что вам нужно сделать, это ввести свой адрес электронной почты. Обо всем остальном позаботимся мы. Мы будем отправлять вам электронные письма, содержащие информацию об игре. Мы не спамим.",
+        "ua": "Щоб почати отримувати наші новини, все, що вам потрібно зробити, це ввести свою електронну адресу. Про все інше подбаємо ми. Ми надішлемо вам електронні листи з інформацією про гру. Ми не розсилаємо спам."
+    },
+    "news-email": {
+        "en": "Your email address",
+        "ru": "Ваша электронная почта",
+        "ua": "Ваша електронна адреса"
+    },
+    "news-button": {
+        "en": "Subscribe now",
+        "ru": "Подписаться",
+        "ua": "Підписатись"
+    },
+    "footer-link-1": {
+        "en": "Privacy Policy",
+        "ru": "Политика конфиденциальности",
+        "ua": "Політика конфіденційності"
+    },
+    "footer-link-2": {
+        "en": "Terms of Services",
+        "ru": "Условия предоставления услуг",
+        "ua": "Умови надання послуг"
+    },
+    "footer-link-3": {
+        "en": "Code of Conduct",
+        "ru": "Нормы поведения",
+        "ua": "Норми поведінки"
+    },
+    "footer-rights": {
+        "en": "© 2018 Outpost Games, Inc. All Rights Reserved",
+        "ru": "© Outpost Games, Inc., 2018. Все права защищены.",
+        "ua": "© 2018 Outpost Games, Inc. Усі права захищено"
+    },
+    "translate-current": {
+        "en": "ENG",
+        "ru": "РУС",
+        "ua": "УКР"
+    },
+    "translate-en": {
+        "en": "ENG",
+        "ru": "АНГ",
+        "ua": "АНГ"
+    },
+    "translate-ru": {
+        "en": "RUS",
+        "ru": "РУС",
+        "ua": "РУС"
+    },
+    "translate-ua": {
+        "en": "UKR",
+        "ru": "УКР",
+        "ua": "УКР"
+    },
+    "modal-fail": {
+        "en": "oops! something went wrong. try again later!",
+        "ru": "что-то пошло не так. Попробуйте ещё раз позже!",
+        "ua": "щось пішло не так. спробуйте ще раз пізніше!"
+    },
+    "modal-ok": {
+        "en": "thank you for subscribing!",
+        "ru": "Спасибо за подписку!",
+        "ua": "Дякуємо за підписку!"
+    },
+    "website-title": {
+        "en": "SOS | Survive at all costs",
+        "ru": "SOS | ВЫЖИТЬ ЛЮБОЙ ЦЕНОЙ",
+        "ua": "SOS | ВИЖИТИ БУДЬ-ЯКОЮ ЦІНОЮ"
+    }
+}

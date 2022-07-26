@@ -1,0 +1,210 @@
+.quotes {
+	padding-top: 10.3rem;
+	min-height: 100vh;
+	padding-bottom: 20px;
+	background: url('../img/quotes_bg_alter.jpg') center center / cover no-repeat;
+	color: #fff;
+	padding-bottom: 9.375rem;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__text {
+		margin-top: 8.875rem;
+		max-width: 25.5rem;
+	}
+	&__comments {
+		max-width: 31.25rem;
+		position: relative;
+	}
+	&__desc {
+		font-size: 1.125rem;
+		margin-top: 2.375rem;
+		line-height: 1.2;
+	}
+	&__comm {
+		padding: 0.8125rem 1.625rem 0.9375rem 0.875rem;
+		position: relative;
+		background: rgba(255, 255, 255, 0.08);
+		border-radius: 0.625rem;
+		width: 28.125rem;
+		line-height: 1.25;
+		word-wrap:break-word;
+		margin-top: 2.1875rem;
+		&:nth-child(2) {
+			right: 9.0625rem;		
+		}
+		&:nth-child(3) {
+			right: 2.4375rem;
+		}
+		&:nth-child(1) {
+			margin-top: 0;
+		}
+		&-person {
+			display: flex;
+		}
+		&-name {
+			margin-left: 2rem;
+			padding-top: 0.5625rem;
+			p:first-of-type {
+				color: $main-yellow; 
+				font-family: Bebas Neue;
+				font-weight: 700;
+				font-size: 1.5rem;
+				letter-spacing: 0.125rem;
+				text-transform: capitalize;
+			}
+			p:last-of-type {
+				font-size: 1.125rem;
+				font-weight: 400;
+				opacity: .5;
+				text-transform: capitalize;
+				line-height: 1.1;
+			}
+		}
+		&-avatar {
+			&-wrapper {
+				width: 3.875rem;
+				height: 3.875rem;
+				position: relative;
+				flex-shrink: 0;
+				&::after {
+					content: '';
+					position: absolute;
+					left: 0.625rem;
+					top: 0.25rem;
+					width: 100%;
+					height: 100%;
+					background-color: $main-yellow; 
+					border-radius: 100%;
+					z-index: -1;
+				}
+			}
+			width: 100%;
+			height: 100%;
+			border-radius: 100%;
+			overflow: hidden;
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		&-twitter {
+			position: absolute;
+			top: 1.8125rem;
+    		right: 1.1875rem;
+		}
+		&-text {
+			margin-top: 1.8125rem;
+			padding-left: 0.125rem;
+			font-size: 1.125rem;
+			font-weight: 400;
+			max-width: 100%;
+		}
+		&-date {
+			margin-top: 1.125rem;
+			padding-left: 0.125rem;
+			opacity: .5;
+			font-size: 0.875rem;
+		}
+	}
+}
+@media (max-width: $mediaBeforeLaptopL) {
+	.quotes {
+		&__comm {
+			&:nth-child(n) {
+				right: 0;
+			}
+		}
+	}
+}
+@media (max-width: $mediaBeforeTablet) {
+	.quotes {
+		min-height: unset;
+		padding-top: calc(2.25rem + (10.3 - 2.25) * ( (100vw - 20rem) / (47.9375 - 20)));
+		padding-bottom: calc(2.9375rem + (9.375 - 2.9375) * ( (100vw - 20rem) / (47.9375 - 20)));
+		&__container {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__text {
+			max-width: 100%;
+		}
+		&__comments {
+			margin-top: 1.875rem;
+		}
+		&__comm {
+			width: 100%;
+		}
+	}
+}
+@media (max-width: $mediaBeforeTablet) {
+	.quotes {
+		&__text {
+			margin-top: 5.875rem;
+		}
+		&__desc {
+			margin-top: 1.4rem;
+			font-size: calc(0.875rem + (1.125 - 0.875) * ( (100vw - 20rem) / (47.9375 - 20)));
+		}
+	}
+}
+@media (max-width: $mediaBeforeMobileL) {
+	.quotes {
+		background: url('../img/quotes_bg_mob.jpg') center center / cover no-repeat, #000;
+		&__comm {
+			padding-top: calc(0.5rem + (0.8125 - 0.5) * ( (100vw - 20rem) / (26.5 - 20)));
+			margin-top: calc(1.6rem + (2.1875 - 1.6) * ( (100vw - 20rem) / (26.5 - 20)));
+			&-avatar-wrapper {
+				width: calc(2.5rem + (3.875 - 2.5) * ( (100vw - 20rem) / (26.5 - 20)));
+				height: calc(2.5rem + (3.875 - 2.5) * ( (100vw - 20rem) / (26.5 - 20)));
+				&::after {
+					left: calc(0.25rem + (0.625 - 0.25) * ( (100vw - 20rem) / (26.5 - 20)));
+					top: calc(0.16rem + (0.25 - 0.16) * ( (100vw - 20rem) / (26.5 - 20)));
+				}
+			}
+			&-name {
+				margin-left: calc(1.4rem + (2 - 1.4) * ( (100vw - 20rem) / (26.5 - 20)));
+				padding-top: 0;
+				p {
+					&:first-of-type {
+						font-size: calc(1.3125rem + (1.5 - 1.3125) * ( (100vw - 20rem) / (26.5 - 20)));
+						font-weight: 500;
+					}
+					&:last-of-type {
+						font-size: calc(0.875rem + (1.125 - 0.875) * ( (100vw - 20rem) / (26.5 - 20)));
+					}
+				}
+			}
+			&-text {
+				margin-top: calc(1.15rem + (1.8125 - 1.15) * ( (100vw - 20rem) / (26.5 - 20)));
+				font-size: calc(0.875rem + (1.125 - 0.875) * ( (100vw - 20rem) / (26.5 - 20)));
+				max-width: 94%;
+			}
+			&-date {
+				margin-top: calc(0.8rem + (1.125 - 0.8) * ( (100vw - 20rem) / (26.5 - 20)));
+				font-size: calc(0.75rem + (0.875 - 0.75) * ( (100vw - 20rem) / (26.5 - 20)));
+			}
+			&-twitter {
+				top: calc(0.75rem + (1.8125 - 0.75) * ( (100vw - 20rem) / (26.5 - 20)));
+				right: calc(0.7rem + (1.875 - 0.7) * ( (100vw - 20rem) / (26.5 - 20)));
+			}
+		}
+	}
+}
+@media (hover) , (min-width:0\0) , (min--moz-device-pixel-ratio:0){
+	.quotes {
+		&__comm-twitter {
+			path {
+				transition: .2s all;
+			}	
+			&:hover {
+				path {
+					opacity: 1;
+					fill: #00acee;
+				}
+			}			
+		}
+	}
+}

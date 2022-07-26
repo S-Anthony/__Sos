@@ -1,0 +1,252 @@
+.footer {
+	padding: 1.2rem 0 3.4375rem 0;
+	background-color: #090a0c;
+	min-height: 25vh;
+	hr {
+		opacity: 0.5;
+		border: 0.873968px solid #FFFFFF;
+		width: 100%;
+		margin: 1.875rem 0 1.375rem 0 ;
+	}
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		&-logo {
+			width: 5.625rem;
+			height: 5.625rem;
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+			}
+		}
+		&-nav {
+			font-weight: 700;
+			font-size: 0.75rem;
+			padding: 4rem 0.5rem 0 0.5em;
+			ul {
+				display: flex;
+				justify-content: space-between;
+				flex-direction: row;
+				li{
+					margin: 0 1rem;
+				}
+				a {
+					letter-spacing: 0.09375rem;
+					font-weight: 700;
+					font-size: 0.75rem;
+					color: #fff;
+					text-decoration: none;
+					cursor: pointer;
+					text-transform: uppercase;
+				}
+			}
+		}
+		&-socials {
+			width: 15.0625rem;
+			padding-top: 3.625rem;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		&-rights {
+			text-align: center;
+			color: #fff;
+			opacity: .5;
+			font-size: 0.875rem;
+			letter-spacing: 0.000625rem;
+		}
+		&-links {
+			text-align: center;
+		}
+	}
+	&__link {
+		color: #fff;
+		text-decoration: none;
+		position: relative;
+		text-transform: uppercase;
+		display: inline-block;
+		width: fit-content;
+		font-weight: 700;
+		padding: 0 0.5rem;
+		font-size: 0.75rem;
+		letter-spacing: 0.0625rem;
+		&::after {
+			position: absolute;
+			right: -0.4375rem;
+			content: '|';
+			color: #fff;
+			font-size: 0.75rem;
+		}
+		&:last-of-type {
+			padding: 0 0 0 0.5rem;
+			&:after {
+				content: '';
+			}
+		}
+	}
+}
+@media (max-width: $mediaBeforeLaptopL) {
+	.footer {
+		&__top {
+			flex-wrap: wrap;
+			&-socials {
+				margin: 0 auto;
+			}
+		}
+		&__bottom {
+			align-items: end;
+			row-gap: .5rem;
+			flex-wrap: wrap;
+			&-rights {
+				flex-grow: 1;
+			}
+			&-links {
+				flex-grow: 1;
+			}
+		}
+	}
+}
+@media (max-width: $mediaBeforeLaptop) {
+	.footer {
+		&__top {
+			justify-content: space-around;	
+		}
+	}
+}
+@media (max-width: $mediaBeforeTablet) {
+	.footer {
+		min-height: unset;
+		&__top {
+			&-socials {
+				padding-top: calc(2.9rem + (3.625 - 2.9) * ( (100vw - 20rem) / (47.9375 - 20)));
+			}
+			&-logo {
+				margin: 0 auto;
+			}
+			&-nav {
+				padding-top: calc(2.8rem + (4 - 2.8) * ( (100vw - 20rem) / (47.9375 - 20)));
+				ul {
+					flex-wrap: wrap;
+					row-gap: 1.8rem;
+					li {
+						width: fit-content;
+					}
+				}
+			}
+		}
+		&__bottom {
+			&-rights {
+				text-align: center;
+			}
+		}
+		&__link {
+			display: block;
+			margin: 1rem auto 0 auto;
+			&::after {
+				display: none;
+			}
+		}
+	}
+}
+@media (max-width: $mediaBeforeMobileL) {
+	.footer {
+		padding: 3.6rem 0 3.4375rem 0;
+		&__top {
+			&-logo {
+				width: 3.125rem;
+				height: 3.125rem;
+			}
+			&-nav {
+				ul {
+					li {
+						margin: 0 0.1rem;
+					}
+				}
+			}
+		}
+		hr {
+			margin: 2.2rem 0 1.375rem 0;
+		}
+		&__bottom {
+			row-gap: 1rem;
+			&-rights {
+				font-size: 0.75rem;
+			}
+		}
+		&__link {
+			margin-top: 1.3rem;
+		}
+	}
+}
+@media (hover) , (min-width:0\0) , (min--moz-device-pixel-ratio:0){
+	.footer {
+		&__top {
+			&-nav {
+				li {
+					position: relative;
+					&::after {
+						content: '';
+						position: absolute;
+						left: 0;
+						bottom: -0.125rem;
+						width: 100%;
+						height: 0.125rem;
+						background-color: #fff;
+						transition: .2s all;
+						transform: scale(0);
+					}
+					&:hover {
+						&::after {
+							transform: scale(1);
+						}
+					}
+				}
+			}
+		}
+		&__social {
+			path {
+				transition: .2s all;
+			}
+			&:nth-child(1) {
+				&:hover {
+					svg {
+						path {
+							fill: #3B5998;
+						}
+					}
+				}
+			}
+			&:nth-child(2) {
+				&:hover {
+					svg {
+						path {
+							fill: #00acee;
+						}
+					}
+				}
+			}
+			&:nth-child(3) {
+				&:hover {
+					svg {
+						path {
+							fill: #c4302b;
+						}
+					}
+				}
+			}
+			&:nth-child(4) {
+				&:hover {
+					svg {
+						path {
+							fill: #6441a5;
+						}
+					}
+				}
+			}				
+		}
+	}
+}

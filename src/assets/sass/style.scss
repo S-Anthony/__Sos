@@ -1,0 +1,32 @@
+@import 'main/normalize';
+@import 'main/fonts';
+@import 'main/variables';
+@import 'main/animation';
+@import '~swiper/scss';
+
+* {
+    font-family: Open Sans;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+* [class$="_container"] {
+    width: 83.333%;
+    margin: 0 auto;
+}
+
+@import 'blocks/spinner';
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/main_screen';
+@import 'blocks/title';
+@import 'blocks/gallery';
+@import 'blocks/features';
+@import 'blocks/req';
+@import 'blocks/quotes';
+@import 'blocks/news';
+@import 'blocks/footer';
+@import 'blocks/modals';
+
+@import 'main/media';

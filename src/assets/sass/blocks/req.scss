@@ -1,0 +1,80 @@
+.req {
+	padding-top: 9.375rem;
+	background:  linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8) 100%), url('../img/req_bg.jpg') center center / cover no-repeat;
+	color: #fff;
+	min-height: 60rem;
+	padding-bottom: 9.375rem;
+	h2, h3 {
+		text-align: center;
+	}
+	&__table {
+		width: fit-content;
+		display: grid;
+		grid-template-columns: repeat(2, 17.85rem);
+		grid-template-rows: repeat(2, minmax(7.875rem, max-content)) minmax(9.375rem, max-content);
+		margin-top: 7.75rem;
+		position: relative;
+		padding: 0.0625rem 0 0 0.125rem;
+		border: 1px solid #979797;
+		border-image-slice:13 13 13 13;
+		border-image-width:13px 13px 13px 13px;
+		border-image-source: url('../img/req_border.png');
+	}
+	&__item {
+		border-bottom: 1px solid #979797;
+		padding: 0.6875rem 1rem 1.25rem 0.625rem;
+		&:nth-child(odd) {
+			border-right: 1px solid #979797;
+		}
+		&:last-child {
+			grid-column-start: 1;
+			grid-column-end: 3;
+			padding: 1.25rem 1rem 1.25rem 0.625rem;
+			border: none;
+		}
+	}
+	&__title {
+		text-transform: uppercase;
+		color: $main-yellow;
+		font-weight: 700;
+		font-size: 1.5rem;
+		font-family: Bebas Neue;
+		letter-spacing: 0.125rem;
+	}
+	&__text {
+		font-size: 1.125rem;
+		font-weight: 400;
+		margin-top: 0.8125rem;
+	}
+}
+@media (max-width: $mediaBeforeTablet) {
+	.req{
+		h2 {
+			margin-left: 0;
+			letter-spacing: .173rem;
+		}
+		min-height: unset;
+		padding-top: calc(2.2rem + (9.375 - 2.2) * ( (100vw - 20rem) / (47.9375 - 20)));
+		&__item {
+			padding: 0.7rem 1rem 0.4rem 0.625rem;
+		}
+		&__table {
+			margin-top: calc(2.5rem + (7.75 - 2.5) * ( (100vw - 20rem) / (47.9375 - 20)));
+			grid-template-columns: repeat(2, 50%);
+			grid-template-rows: auto;
+		}
+		&__title {
+			font-weight: 500;
+			font-size: calc(1.125rem + (1.5 - 1.125) * ( (100vw - 20rem) / (47.9375 - 20)));
+		}
+		&__text {
+			margin-top: calc(0.4375rem + (0.8125 - 0.4375) * ( (100vw - 20rem) / (47.9375 - 20)));
+			font-size: calc(0.875rem + (1.125 - 0.875) * ( (100vw - 20rem) / (47.9375 - 20)));
+		}
+	}	
+@media (max-width: $mediaBeforeMobileL) {
+	.req {
+		background: url('../img/req_bg_mob.jpg') center center / cover no-repeat, #000;
+		}
+	}
+}

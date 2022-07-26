@@ -1,0 +1,68 @@
+.title {
+	font-family: Bebas Neue;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.5rem;
+	letter-spacing: .15rem;
+	font-weight: 400;
+	word-break: break-word;
+	&_big {
+		font-size: 5rem;
+		letter-spacing: .2rem;
+	}
+	&_line {
+		position: relative;
+		max-width: 38rem;
+		padding-top: 0.4375rem;
+		line-height: 1;
+		z-index: 2;
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: -0.625rem;
+			left: 0;
+			background: #FFFFFF;
+			border-radius: 4px;
+			width: 44.5rem;
+			height: 0.1875rem;
+		}
+	}
+	&_req {
+		margin-left: 1.5625rem;
+
+	}
+	&_quotes {
+		letter-spacing: .13rem;
+	}
+}
+h3.title_req {
+	margin-left: 0.9375rem;
+	letter-spacing: 0.125rem;
+}
+@media (max-width: $mediaBeforeTablet) {
+	.title {
+		font-size: calc(1.125rem + (1.5 - 1.125) * ( (100vw - 20rem) / (47.9375 - 20)));
+		&_big {
+			font-size: calc(2.0625rem + (5 - 2.0625) * ( (100vw - 20rem) / (47.9375 - 20)));
+		}
+		&_news {
+			padding-left: 30%;
+		}
+	}
+}
+@media (max-width: $mediaBeforeMobileL) {
+	.title {
+		&_line {
+			&::after {
+				bottom: -2rem;
+			}
+		}
+		&_news {
+			padding-left: 34%;
+		}
+	}
+	h3.title_req {
+		margin-left: 0rem;
+		letter-spacing: 0.13rem;
+	}
+}
