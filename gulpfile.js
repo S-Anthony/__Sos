@@ -8,10 +8,8 @@ const cleanCSS = require('gulp-clean-css');
 const htmlmin = require('gulp-htmlmin');
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const dist = "./dist/";
-// const dist = 'D:/Programs/OpenServer/domains/Sos/';
 // Static server
 gulp.task('server', function() {
   browserSync.init({
@@ -25,53 +23,17 @@ gulp.task('server', function() {
   gulp.watch(`./src/*.html`).on('change', browserSync.reload);
 });
 
-// gulp.task('styles', function() {
-//   return gulp.src('src/assets/sass/*.+(scss|sass)')
-//       .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-//       .pipe(rename({
-//           prefix: "",
-//           suffix: ".min",
-//       }))
-//       .pipe(autoprefixer())
-//       .pipe(cleanCSS({compatibility: 'ie8'}))
-//       .pipe(gulp.dest(`${dist}css`))
-//       .pipe(browserSync.stream()); 
-// });
-
 gulp.task('styles', function() {
   return gulp.src('src/assets/sass/*.+(scss|sass)')
-      .pipe(webpack({
-        mode: 'development',
-        // output: {
-        //     filename: 'style.scss'
-        // },
-        // watch: false,
-        // devtool: "source-map",
-        module: {
-          rules: [
-            {
-              test: /\.s[ac]ss$/i,
-              use: [
-                MiniCssExtractPlugin.loader,
-                "css-loader",
-                "sass-loader",
-              ],
-            },
-          ],
-        },
-        plugins: [
-          new MiniCssExtractPlugin({
-            // Options similar to the same options in webpackOptions.output
-            // both options are optional
-            filename: "[name].css",
-            chunkFilename: "[id].css",
-          }),
-        ]
+      .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+      .pipe(rename({
+          prefix: "",
+          suffix: ".min",
       }))
-      // .pipe(autoprefixer())
-      // .pipe(cleanCSS({compatibility: 'ie8'}))
-      .pipe(gulp.dest('C:/Users/Anthony/Desktop/style_output/'));
-      // .on("end", browserSync.reload);
+      .pipe(autoprefixer())
+      .pipe(cleanCSS({compatibility: 'ie8'}))
+      .pipe(gulp.dest(`${dist}css`))
+      .pipe(browserSync.stream()); 
 });
 
 gulp.task('fonts', function () {

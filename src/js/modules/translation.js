@@ -1,3 +1,4 @@
+import Modal from "./modals";
 export default class Translation {
 	constructor(langArr, containerSlector, langAttribute, loadingScreenSelector) {
 		this.langArr = langArr;
@@ -6,14 +7,15 @@ export default class Translation {
 		this.container = document.querySelector(`.${containerSlector}`);
 		this.allItems = document.querySelectorAll(`[${langAttribute}]`);
 		try {
-			this.loadingScreen = document.querySelector(loadingScreenSelector);
+			this.loadingScreen = new Modal(loadingScreenSelector, 'block');
+			this.loadingScreen.init();
 		} catch (error) {}
 	}
 
 	changeLanguage() {
 		let lang = localStorage.getItem('lang') ? localStorage.getItem('lang') : 'en';
 
-		if (this.loadingScreen) this.loadingScreen.style.display = "block";
+		if (this.loadingScreen) this.loadingScreen.showModal();
 
 		this.allItems.forEach(item => {
 			item.style.display = 'list-item';
@@ -23,6 +25,7 @@ export default class Translation {
 		});
 		
 		document.querySelector('title').innerHTML = this.langArr['website-title'][lang];
+		document.documentElement.setAttribute("lang", this.langArr['website-lang'][lang]);
 		for (let key in this.langArr) {
 			let elem = document.querySelector('.lang-' + key);
 			if (elem) {
@@ -30,7 +33,7 @@ export default class Translation {
 			}
 		}
 
-		if (this.loadingScreen) this.loadingScreen.style.display = "none";
+		if (this.loadingScreen) this.loadingScreen.hideModal();
 	}
 
 	init() {

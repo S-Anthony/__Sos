@@ -8,7 +8,7 @@
 		position: relative;
 		display: flex;
 		justify-content: space-between;
-		row-gap: 2rem;
+		gap: 3.5rem;
 	}
 	&__text {
 		padding-top: 3.25rem;
@@ -47,7 +47,7 @@
 		position: relative;
 		height: 38.125rem;
 		z-index: 1;
-		width: 35.375rem;
+		width: 31.375rem;
 		margin: 0 3.375rem;
 	}
 	&__slider-wrapper { 
@@ -87,7 +87,7 @@
 	&__index {
 		position: absolute;
 		bottom: 1.625rem;
-		left: calc(50% - 2rem);
+		left: 50%;
 		transform: translateX(-47%);
 		display: flex;
 		justify-content: space-between;
@@ -137,15 +137,15 @@
 	}
 	&__arrow {
 		position: absolute;
-		right: -2.5rem;
+		right: calc(-2.5rem - 18px);
 		top: 50%;
-		transform: translateY(-18%);
+		transform: translateY(-50%);
 		cursor: pointer;
 		transition: opacity .2s;
 		&_prev {
-			left: -1.125rem;
+			left: -2.5rem;
 			transform-origin: left center;
-    		transform: rotate(180deg);
+    		transform: rotate(180deg) translateY(50%);
 			width: fit-content;
 		}
 		&_disabled {
@@ -175,7 +175,7 @@
 		padding-bottom: calc(2.25rem + (8.625 - 2.25) * ( (100vw - 20rem) / (47.9375 - 20)));
 		&__slider {
 			height: calc(17.0625rem + (38.125 - 17.0625) * ( (100vw - 20rem) / (47.9375 - 20)));
-			width: calc(16.0625rem + (33.375 - 16.0625) * ( (100vw - 20rem) / (47.9375 - 20)));
+			width: calc(12.0625rem + (29.375 - 12.0625) * ( (100vw - 20rem) / (47.9375 - 20)));
 		}
 		&__slide {
 			&:nth-child(2) {
@@ -187,16 +187,15 @@
 		}
 		&__arrow {
 			&_next {
-				right: -10%;
+				right: calc(-10% - 18px);
 			}
 			&_prev {
-				left: -3%;
+				left: -10%;
 			}
 		}
 		&__index {
 			bottom: 0.625rem;
 			gap: calc(1.1rem + (3.3 - 1.1) * ( (100vw - 20rem) / (47.9375 - 20)));
-			left: calc( 50% - calc(1rem + (2 - 1) * ((100vw - 20rem) / (47.9375 - 20))) );
 			span {
 				height: calc(0.7rem + (0.875 - 0.7) * ( (100vw - 20rem) / (47.9375 - 20)));
 				width: calc(0.7rem + (0.875 - 0.7) * ( (100vw - 20rem) / (47.9375 - 20)));
@@ -216,7 +215,7 @@
 }
 @media (max-width: $mediaBeforeMobileL) {
 	.gallery {
-		background: url('../img/gallery_bg_mob.jpg') center center / cover no-repeat, #000;
+		background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 75%, rgba(0,0,0,1) 100%), url('../img/gallery_bg_mob.jpg') center center / cover no-repeat, #000;
 	}
 }
 @media (hover) , (min-width:0\0) , (min--moz-device-pixel-ratio:0){

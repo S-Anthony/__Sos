@@ -2,8 +2,9 @@
 @import 'main/fonts';
 @import 'main/variables';
 @import 'main/animation';
-@import '~swiper/scss';
-
+section {
+    overflow-x: hidden;
+}
 * {
     font-family: Open Sans;
     box-sizing: border-box;
@@ -30,3 +31,5 @@
 @import 'blocks/modals';
 
 @import 'main/media';
+
+@import './libs/swiper-bundle.modified';

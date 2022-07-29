@@ -271,8 +271,8 @@
     },
     "footer-link-3": {
         "en": "Code of Conduct",
-        "ru": "Нормы поведения",
-        "ua": "Норми поведінки"
+        "ru": "кодекс поведения",
+        "ua": "кодекс поведінки"
     },
     "footer-rights": {
         "en": "© 2018 Outpost Games, Inc. All Rights Reserved",
@@ -292,7 +292,7 @@
     "translate-ru": {
         "en": "RUS",
         "ru": "РУС",
-        "ua": "РУС"
+        "ua": "РОС"
     },
     "translate-ua": {
         "en": "UKR",
@@ -313,5 +313,10 @@
         "en": "SOS | Survive at all costs",
         "ru": "SOS | ВЫЖИТЬ ЛЮБОЙ ЦЕНОЙ",
         "ua": "SOS | ВИЖИТИ БУДЬ-ЯКОЮ ЦІНОЮ"
+    },
+    "website-lang": {
+        "en": "en",
+        "ru": "ru",
+        "ua": "uk"
     }
 }

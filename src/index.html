@@ -23,7 +23,6 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="img/fav/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<!-- <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"> -->
 </head>
 <body>
 	<header class="header"> <!-- add class "mobile-menu" to open mobile menu-->
@@ -38,11 +37,11 @@
 			<div class="header__right">
 				<nav class="header__nav">
 					<ul>
-						<li><a href="#main_section" class="lang-menu-1">main</a></li>
-						<li><a href="#gallery_section" class="lang-menu-2">about</a></li>
-						<li><a href="#features_section" class="lang-menu-3">game features</a></li>
-						<li><a href="#req_section" class="lang-menu-4">system requirements</a></li>
-						<li><a href="#quotes_section" class="lang-menu-5">quotes</a></li>
+						<li><a data-anchor href="#main_section" class="lang-menu-1">main</a></li>
+						<li><a data-anchor href="#gallery_section" class="lang-menu-2">about</a></li>
+						<li><a data-anchor href="#features_section" class="lang-menu-3">game features</a></li>
+						<li><a data-anchor href="#req_section" class="lang-menu-4">system requirements</a></li>
+						<li><a data-anchor href="#quotes_section" class="lang-menu-5">quotes</a></li>
 						<li class="header__socials header__socials_mob">
 							<a href="https://www.microsoft.com/" target="_blank" class="header__xbox">
 								<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -100,11 +99,11 @@
 			<h2 class="title lang-main-subtitle">
 				Experience new social battle royale game
 			</h2>
-			<a href="https://store.steampowered.com/" target="_blank" class="button lang-main-button">
+			<a href="https://store.steampowered.com/" target="_blank" class="button button_main lang-main-button">
 				Buy now on Steam <span>$14.99</span>
 			</a>
 	
-			<a href="#gallery_section" class="main__down">
+			<a data-anchor href="#gallery_section" class="main__down">
 				<div class="lang-main-down">The story</div> 
 				<div class="main__arrow">
 					<svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -316,7 +315,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="news">
+	<section id="news_section" class="news">
 		<div class="news__container">
 			<div class="news__content">
 				<h3 class="title title_news lang-news-subtitle">Want to stay in touch?</h3>
@@ -326,13 +325,13 @@
 				</div>
 				<form class="news__form">
 					<div class="news__email">
-						<label for="username" class="lang-news-email">Your email address</label>
-						<input type="email" minlength="5" name="email" placeholder="aliciliniavopir@gmail.com" required="required" novalidate>
+						<label for="email-input" class="lang-news-email">Your email address</label>
+						<input id="email-input" type="email" minlength="5" name="email" placeholder="aliciliniavopir@gmail.com" required="required">
 					</div>
 					<button class="button button_form">
-						<div class="button_form__text lang-news-button">
+						<span class="button_form__text lang-news-button">
 							Subscribe now
-						</div>
+						</span>
 						<svg class="spinner button_form__spinner" viewBox="0 0 50 50">
 							<circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
 						</svg>
@@ -349,11 +348,11 @@
 				</div>
 				<nav class="footer__top-nav">
 					<ul>
-						<li><a href="#main_section" class="lang-footer-menu-1">main</a></li>
-						<li><a href="#gallery_section" class="lang-footer-menu-2">about</a></li>
-						<li><a href="#features_section" class="lang-footer-menu-3">game features</a></li>
-						<li><a href="#req_section" class="lang-footer-menu-4">system requirements</a></li>
-						<li><a href="#quotes_section" class="lang-footer-menu-5">quotes</a></li>
+						<li><a data-anchor href="#main_section" class="lang-footer-menu-1">main</a></li>
+						<li><a data-anchor href="#gallery_section" class="lang-footer-menu-2">about</a></li>
+						<li><a data-anchor href="#features_section" class="lang-footer-menu-3">game features</a></li>
+						<li><a data-anchor href="#req_section" class="lang-footer-menu-4">system requirements</a></li>
+						<li><a data-anchor href="#quotes_section" class="lang-footer-menu-5">quotes</a></li>
 					</ul>
 				</nav>
 				<div class="footer__top-socials">
