@@ -1,4 +1,5 @@
 # Sos - page markup 
+[Page design by @alicilinia](https://dribbble.com/shots/10709930-Freebie-Game-landing-page)
 ## Demo:
 https://s-anthony.github.io/sos/
 ## Stack:
